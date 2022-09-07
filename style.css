@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.menu {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
